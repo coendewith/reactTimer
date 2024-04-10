@@ -1,0 +1,50 @@
+/* Stopwatch.css */
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.start-button,
+.pause-button,
+.reset-button {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-button {
+    background-color: rgb(3, 165, 3);
+    color: #fff;
+}
+
+.start-button:hover {
+    background-color: #0c0;
+}
+
+.pause-button {
+    background-color: rgb(255, 121, 43);
+    color: #fff;
+}
+
+.pause-button:hover {
+    background-color: rgb(255, 188, 43);
+}
+
+.reset-button {
+    background-color: #555;
+    color: #fff;
+}
+
+.reset-button:hover {
+    background-color: #333;
+}
